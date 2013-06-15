@@ -1,0 +1,51 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.web,1.1.402.v201012160000,"org.eclipse.wst.web",1371276337643
+started,bundle,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.adt",1371276337643
+started,bundle,com.android.ide.eclipse.base,20.0.3.v201208082019-427395,"com.android.ide.eclipse.base",1371276337644
+os,sysinfo,,,"win32",1371276337649
+arch,sysinfo,,,"x86_64",1371276337649
+ws,sysinfo,,,"win32",1371276337649
+locale,sysinfo,,,"en_US",1371276337649
+processors,sysinfo,,,"4",1371276337649
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1371276337649
+java.runtime.version,sysinfo,,,"1.6.0_26-b03",1371276337649
+java.specification.name,sysinfo,,,"Java Platform API Specification",1371276337649
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1371276337649
+java.specification.version,sysinfo,,,"1.6",1371276337649
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1371276337649
+java.version,sysinfo,,,"1.6.0_26",1371276337649
+java.vm.info,sysinfo,,,"mixed mode",1371276337649
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1371276337649
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1371276337649
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1371276337649
+java.vm.specification.version,sysinfo,,,"1.0",1371276337649
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1371276337649
+java.vm.version,sysinfo,,,"20.1-b02",1371276337649
+started,bundle,org.eclipse.debug.core,3.6.0.v20100519,"org.eclipse.debug.core",1371276349244
+started,bundle,org.eclipse.jdt.launching,3.5.200.v20110105_r362,"org.eclipse.jdt.launching",1371276349245
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1371276349842
+started,bundle,org.eclipse.cdt.make.core,7.0.1.201102110609,"org.eclipse.cdt.make.core",1371276381216
+started,bundle,org.eclipse.cdt.managedbuilder.core,7.0.2.201102110609,"org.eclipse.cdt.managedbuilder.core",1371276381280
+started,bundle,org.eclipse.cdt.core,5.2.1.201102110609,"org.eclipse.cdt.core",1371276381787
+started,bundle,org.eclipse.cdt.ui,5.2.2.201102110609,"org.eclipse.cdt.ui",1371276381878
+started,bundle,org.eclipse.cdt.make.ui,7.0.0.201102110609,"org.eclipse.cdt.make.ui",1371276381920
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1371276396497
+started,bundle,org.eclipse.jdt.apt.core,3.3.402.R36_v20110120-1000,"org.eclipse.jdt.apt.core",1371276396599
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.301.R36_v20100727-0110,"org.eclipse.jdt.apt.pluggable.core",1371276396607
+started,bundle,org.eclipse.compare.core,3.5.101.R36x_v20100929-0800,"org.eclipse.compare.core",1371276407668
+started,bundle,org.eclipse.compare,3.5.101.R36x_v20100929-0800,"org.eclipse.compare",1371276407673
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1371276423295
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1371276425199
+executed,command,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.edit.text.java.rename.element",1371276425207
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1371276434803
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1371276471237
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1371276481273
+started,bundle,org.eclipse.mylyn.ide.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.ide.ui",1371276486000
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1371276487496
+opened,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1371276490463
+started,bundle,org.eclipse.ui.navigator,3.5.0.I20100601-0800,"org.eclipse.ui.navigator",1371276490689
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1371276490720
+started,bundle,org.eclipse.core.variables,3.2.400.v20100505,"org.eclipse.core.variables",1371276490954
+started,bundle,org.eclipse.jdt.junit,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.junit",1371276499045
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.deletePreviousWord",1371276514087
+started,bundle,org.eclipse.mylyn.java.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.java.ui",1371276517915

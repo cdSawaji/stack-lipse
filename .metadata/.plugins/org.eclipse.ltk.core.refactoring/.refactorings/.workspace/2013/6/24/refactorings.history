@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;stack-lipse-plugin&apos;" deleteContents="true" description="Delete resource &apos;stack-lipse-plugin&apos;" element1="/stack-lipse-plugin" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1371276134024"/>&#x0A;<refactoring comment="Delete resource &apos;stack-eclipse-plugin&apos;" deleteContents="false" description="Delete resource &apos;stack-eclipse-plugin&apos;" element1="/stack-eclipse-plugin" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1371276263211"/>
+</session>
