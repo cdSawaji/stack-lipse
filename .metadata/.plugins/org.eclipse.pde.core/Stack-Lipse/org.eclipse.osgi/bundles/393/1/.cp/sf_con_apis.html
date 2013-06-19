@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="topic" name="DC.Type" />
+<meta name="DC.Title" content="Swordfish APIs" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="sf_con_apis" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="common.css" type="text/css" rel="stylesheet" />
+<title>Swordfish APIs</title>
+</head>
+<body id="sf_con_apis"><a name="sf_con_apis"><!-- --></a>
+
+
+	<h1 class="topictitle1">Swordfish APIs</h1>
+
+	
+	<div>
+	<div class="p">The Swordfish framework currently provides four APIs for custom implementations: 
+	<br /><ul>
+		<li>General Interceptor </li>
+
+		<li>Service Resolver</li>
+
+		<li>Event</li>
+
+		<li>Configuration</li>
+
+	</ul>
+	
+</div>
+
+<dl>
+		
+			<dt class="dlterm">General Interceptor API </dt>
+
+			<dd>Swordfish hooks into the Normalized Message Router in ServiceMix, intercepts all messages flowing back and forth and feeds them into a dynamically built interceptor chain. The Interceptors in that chain can do (almost) anything with a message: read and modify payload, read and modify properties, or re-route the message. </dd>
+
+		
+		
+			<dt class="dlterm">Service Resolver API </dt>
+
+			<dd>Swordfish Service Resolver API builds upon the general interceptor API. It is a special kind of interceptor that is provided as part of the Swordfish core; ServiceResolverInterceptor translates the (logical) service interface name carried inside a message exchange into a physical endpoint address where the message exchange is ultimately dispatched. </dd>
+
+		
+		
+			<dt class="dlterm">Event API</dt>
+
+			<dd>The Swordfish Event system is the basis of Swordfish's monitoring capabilities. The Event API builds upon the OSGi EventAdmin Service. Swordfish core generates events of type, TrackingEvent for each MessageExchange flowing through the NMR.Other pre-defined event types include OperationEvent and ConfigurationEvent. </dd>
+
+		
+		
+			<dt class="dlterm">Configuration API </dt>
+
+			<dd>The Configuration API builds upon the OSGi ConfigurationAdmin service. A ConfigurationAgent receives configurations from a ConfigurationSource (possibly, a remote one) and provides them to other components through the OSGi ConfigurationAdmin service. A component that implements ConfigurationConsumer receives updated configurations as they become available. </dd>
+
+		
+	</dl>
+
+	</div>
+
+
+</body>
+</html>

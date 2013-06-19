@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compositeCheatsheet name="Swordfish Platform">
+   <taskGroup kind="set" name="Working with Swordfish" skip="false">
+      <intro>
+         <p>This cheat sheet guides you through steps to configure Eclipse for the Swordfish target platform and also perform additional steps like working with a simple JAX-WS service and creating a JAX-WS service based on WSDL.</p>
+        <p>The individual steps consist of commands and wizards that can be launched automatically.</p>
+      </intro>
+      <task kind="cheatsheet" name="Configuring Eclipse for Swordfish" skip="false">
+         <intro>
+            <p>This cheat sheet shows you how to configure Eclipse for the Swordfish Target Platform.</p>
+         </intro>
+         <param name="path" value="swordfishcheatsheet.xml">
+         </param>
+      </task>
+      <task kind="cheatsheet" name="Creating, Running and Exporting a JAX-WS Service" skip="false">
+         <intro>
+            <p>This cheat sheet shows you how to create, run, and export a JAX-WS Service.</p>
+         </intro>
+         <param name="path" value="create_jaxws_service.xml">
+         </param>
+      </task>
+      <task kind="cheatsheet" name="Create a JAX-WS Service Provider Based on WSDL" skip="false">
+         <intro>
+            <p>This cheat sheet shows you how to create a JAX-WS Service Provider based on WSDL.</p>
+         </intro>
+         <param name="path" value="jaxws_service.xml">
+         </param>
+      </task>
+      <task kind="cheatsheet" name="Create a JAX-WS Service Consumer Based on WSDL" skip="false">
+         <intro>
+            <p>This cheat sheet shows you how to create a JAX-WS Service Consumer based on WSDL.</p>
+         </intro>
+         <param name="path" value="jaxws_service_consumer.xml">
+         </param>
+      </task>
+   </taskGroup>
+</compositeCheatsheet>

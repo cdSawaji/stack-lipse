@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?eclipse version="3.3"?>
+<plugin>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+   </extension>
+
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.intro.configExtension">
+      <configExtension
+            configId="org.eclipse.ui.intro.universalConfig"
+            content="intro/overview.xml">
+      </configExtension>
+      <configExtension
+            configId="org.eclipse.ui.intro.universalConfig"
+            content="intro/tutorials.xml">
+      </configExtension>   
+       <!--configExtension
+            configId="org.eclipse.ui.intro.universalConfig"
+            content="intro/sample.xml">
+     </configExtension-->  
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.cheatsheets.cheatSheetContent">
+      <category
+            id="org.eclipse.swordfish.tooling.cheatsheet"
+            name="Swordfish">
+      </category>
+      <cheatsheet
+            category="org.eclipse.swordfish.tooling.cheatsheet"
+            composite="true"
+            contentFile="/cheatsheets/swordfishplatform.xml"
+            id="org.eclipse.swordfish.tooling.cheatsheets.tutorial"
+            name="Swordfish Platform">
+            <description>This cheat sheet helps you configure Eclipse for Swordfish and also perform several tasks with Swordfish.</description>
+      </cheatsheet>      
+   </extension>
+   
+</plugin>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="task" name="DC.Type" />
+<meta name="DC.Title" content="Running a JAX-WS Service Consumer Project" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="sf_jax-ws_run_consumer" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="common.css" type="text/css" rel="stylesheet" />
+<title>Running a JAX-WS Service Consumer Project</title>
+</head>
+<body id="sf_jax-ws_run_consumer"><a name="sf_jax-ws_run_consumer"><!-- --></a>
+
+
+		<h1 class="topictitle1">Running a JAX-WS Service Consumer Project</h1>
+
+		
+		<div>
+				<div class="section">To run your Service Consumer:</div>
+
+				<ol>
+				<li class="stepexpand">
+					<span>Click <a href="javascript:executeCommand('org.eclipse.debug.ui.commands.OpenRunConfigurations')" class="command-link">
+						<img src="PLUGINS_ROOT/org.eclipse.help/command_link.png" alt="Open the Run Configurations dialog" />
+						<span class="menucascade">
+							<span class="uicontrol">Run</span>
+							 &gt; <span class="uicontrol">Run Configurations...</span>
+						</span>
+					</a>.</span>
+			</li>
+
+			<li class="stepexpand">
+				<span>Right-click <span class="uicontrol">OSGi Framework</span> and click <span class="uicontrol">New</span>. Type a name for your consumer configuration in the <span class="uicontrol">Name</span> field.</span>
+				 
+				
+					<div class="fignone">
+						<img src="images/sf_run_consumer.png" />
+					</div>
+
+				
+			</li>
+
+				<li class="stepexpand">
+				<span>Click the <span class="uicontrol">Bundles</span> tab, select the <span class="uicontrol">Workspace</span> check box and select the check boxes corresponding to the consumer projects you want to run. </span>
+				 
+				<p><strong>Note:</strong> You can use a single configuration to run more than one consumer.  </p>
+
+					
+				
+			</li>
+
+			<li class="stepexpand">
+				<span>In the <span class="uicontrol">Bundles</span> tab, select the <span class="uicontrol">Target Platform</span> check box and clear the <span class="uicontrol">org.eclipse.swordfish.registry</span> check box. Running multiple instance of Service Registry on the same machine can cause a port clash.  </span>
+			</li>
+
+			<li class="stepexpand">
+				<span>Click <span class="uicontrol">Apply</span>. Click <span class="uicontrol">Run</span>.  </span>
+				
+			</li>
+
+				</ol>
+
+		</div>
+
+	
+</body>
+</html>

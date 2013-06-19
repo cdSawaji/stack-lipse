@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="topic" name="DC.Type" />
+<meta name="DC.Title" content="Service Registry Lookup" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="sf_con_sr" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="common.css" type="text/css" rel="stylesheet" />
+<title>Service Registry Lookup</title>
+</head>
+<body id="sf_con_sr"><a name="sf_con_sr"><!-- --></a>
+
+
+	<h1 class="topictitle1">Service Registry Lookup</h1>
+
+	
+	<div>
+	<p>One of the most important features in Swordfish is its Service Registry. Swordfish Service Registry provides a comprehensive overview of the services that exist within an SOA and fosters service re-use.	</p>
+
+	<div class="p"><div class="fignone">
+	<img src="images/sf_service_registry.png" />
+</div>
+</div>
+
+<p>Static service endpoints are used to bind concrete physical endpoint addresses to the services called by a service consumer. This way only a single service provider is bound to the service. This "hard wiring" of logical services to specific physical providers may lead to undesired inflexibility specially in larger enterprise level SOA scenarios. Load balancing and fail over must be realized using expensive hardware solutions and only one specific set of non-functional requirements can be fulfilled. Swordfish as an extensible SOA runtime framework suitable for enterprise SOA scenarios addresses this issue by supporting an additional concept named  "dynamic service resolution".</p>
+
+<p>A service consumer does not necessarily need to know the concrete physical endpoint address of a specific service provider. Imagine a scenario where consumers can choose from multiple providers of the same logical service. Based on some selection criteria, for example expressed in a Policy (like for instance guaranteed response times, processing cost or whatever), the runtime framework takes care of assigning a matching provider to the consumer.</p>
+
+<p>As a default solution, Swordfish uses a SOA Service Registry to perform dynamic lookup. Other more dynamic solutions like broadcast mechanisms or distributed hash tables can be supported using specific Swordfish Service Resolution plug-ins.</p>
+
+<p>The implementation of dynamic service lookup mechanisms in Swordfish is based on the Swordfish Service Resolver API which builds upon the general interceptor API. It is a special kind of interceptor that translates the (logical) service interface name carried inside a message exchange
+into a physical endpoint address where the message exchange is ultimately dispatched.</p>
+
+<p>Swordfish provides a standard API for Service Registry functionality together with a default implementation - the Swordfish Service Registry. The Swordfish default implementation of the Service Resolver API uses the Service Registry to perform provider lookup.</p>
+
+<p>The Swordfish Service Registry stores WSDL's resources which may be managed and retrieved via a REST based query interface.</p>
+
+	</div>
+
+
+</body>
+</html>

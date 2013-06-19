@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Swordfish User Guide">
+<topic label="About Swordfish" href="sf_about_sf.html"/>
+<topic label="Swordfish Development Concepts and Tasks">
+<topic label="Swordfish Development Concepts">
+<topic label="Service Registry Lookup" href="sf_con_sr.html"/>
+<topic label="Swordfish APIs" href="sf_con_apis.html"/>
+</topic>
+<topic label="Swordfish Development Tasks">
+<topic label="Getting Started with Swordfish" href="sf_tar_configure_target_plat.html"/>
+<topic label="Developing a JAX-WS Service Provider Project">
+<topic label="Creating a Simple JAX-WS Service Provider Project" href="sf_simp_jax-ws.html"/>
+<topic label="Creating a JAX-WS Service Provider Project from WSDL" href="sf_jax-ws_wsdl.html"/>
+<topic label="Running a JAX-WS Service Provider Project" href="sf_jax-ws_run_provider.html"/>
+</topic>
+<topic label="Developing a JAX-WS Service Consumer Project">
+<topic label="Creating a JAX-WS Service Consumer Project from WSDL" href="sf_jax-ws_wsdl_con.html"/>
+<topic label="Running a JAX-WS Service Consumer Project" href="sf_jax-ws_run_consumer.html"/>
+</topic>
+<topic label="Switching a Service Endpoint from Static to Dynamic" href="sf_static_endpoint.html"/>
+<topic label="Exporting an Example Project JAR" href="sf_tar_export_example.html"/>
+<topic label="Uploading a WSDL to Swordfish Service Registry" href="sf_reg_upload_wsdl.html"/>
+</topic>
+</topic>
+<topic label="Swordfish Deployment Concepts and Tasks">
+<topic label="Swordfish Deployment Concepts">
+<topic label="Defining a Remote Server Connection via Swordfish Tooling" href="sf_remote_svr_concept.html"/>
+</topic>
+<topic label="Swordfish Deployment Tasks">
+<topic label="Defining and Deploying Features to a Swordfish Runtime Server">
+<topic label="Installing Prerequisite Web Development Tools" href="sf_installing_prereq_tools.html"/>
+<topic label="Creating Feature Plug-in Projects and Assigning them to Swordfish" href="sf_create_pi_proj.html"/>
+<topic label="Creating a New Remote Swordfish Server Definition" href="sf_create_new_svr_defn.html"/>
+<topic label="Deploying to a Remote Swordfish Runtime Server" href="sf_deploy_remote_svr.html"/>
+</topic>
+<topic label="Installing a Swordfish Runtime Server">
+<topic label="Downloading and Installing Swordfish Runtime Server" href="sf_download_sf_rt_svr.html"/>
+</topic>
+</topic>
+</topic>
+<topic label="Tips and tricks" href="sf_tips_tricks.html"/>
+<topic label="FAQ" href="sf_faq.html"/>
+<topic label="Legal" href="sf_legal.html"/>
+</toc>

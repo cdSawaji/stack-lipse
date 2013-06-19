@@ -1,0 +1,230 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: L9vV6iG1+cBhcHBE0V2mnfZUfcw=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: E0OF8oWrt9vxfe6wLMfCnHlczlw=
+
+Name: common.css
+SHA1-Digest: ssmR03C0nf++1njaMDi2f+Dd8yo=
+
+Name: images/sf_simp_jaxws_content.png
+SHA1-Digest: j4UBtXVrKyt6E7O+0+/X2+yEYe8=
+
+Name: images/sf_gen_wsdl.png
+SHA1-Digest: 3FAnLw/w561NN7fylSoVokqFoqI=
+
+Name: sf_jax-ws_wsdl_con.html
+SHA1-Digest: w0hK7/RL9E1ngo2t626ohIXIAE4=
+
+Name: images/sf_reg_bpel_serv_expl.png
+SHA1-Digest: XVNXqBSMeYqSz9WAzk8DJog8IOc=
+
+Name: images/sf_jmx_rmi_port.png
+SHA1-Digest: GVExF8HjN0cHMRrChZDbAKzKphg=
+
+Name: images/sf_new_feature_props.png
+SHA1-Digest: qcosNwZlVtRlG/gMRu9vC+QuOV4=
+
+Name: sf_installing_prereq_tools.html
+SHA1-Digest: vT5I1YZBv/DTMYfE/gzli7IOZAI=
+
+Name: images/sf_install_prereq_wdt.png
+SHA1-Digest: jbwWJpS3tXxKCoUUB5LcOwUz8gg=
+
+Name: images/sf_service_registry.png
+SHA1-Digest: KUoDUdiL9S4j8EPdj4qgHrbQe70=
+
+Name: intro/css/graphics/Thumbs.db
+SHA1-Digest: 5dtru4/teVCCFf6L6qQXuR5U+ng=
+
+Name: intro/tutorials.xml
+SHA1-Digest: qXpcv6hXO1swl5DwFJzjYhJO4lU=
+
+Name: cheatsheets/swordfishcheatsheet.xml
+SHA1-Digest: P+B4EFNLPusX9nmrdb5JlQiT8tM=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: images/sf_new_jaxws_con.png
+SHA1-Digest: fdDQq6FXz2CuAJOiif9ske6G7Lo=
+
+Name: sf_create_new_svr_defn.html
+SHA1-Digest: y6miFb1b8/mSIJtdy/R1/2o03Qw=
+
+Name: sf_legal.html
+SHA1-Digest: dB6Bx19zu3eJJB47Ci8beUbYr7k=
+
+Name: images/sf_rt_svr_overview_view.png
+SHA1-Digest: ncRdDuP4M5PUHdKulb271TLzSw4=
+
+Name: sf_remote_svr_concept.html
+SHA1-Digest: TZXAW5U9BJZUReamtFvHxRMLUOE=
+
+Name: sf_con_sr.html
+SHA1-Digest: wVJbGde1gKOnxW/xWxQLYojP9Dk=
+
+Name: cheatsheets/jaxws_service_consumer.xml
+SHA1-Digest: XU+hdMDbj7YzImBWW/PBHqKpEVI=
+
+Name: images/sf_import_jaxws.png
+SHA1-Digest: SwBYSxo8hfuIJAPox2mEvZB54cc=
+
+Name: commonrtl.css
+SHA1-Digest: YcY6vLUvrOkcW2jsUBc2WCjp6Fw=
+
+Name: commonltr.css
+SHA1-Digest: Gm3EP5XnvOqikYtICMkRfdMLuWk=
+
+Name: images/sf_run_provider.png
+SHA1-Digest: sVFTyH2L9JmiSIqdZs4fPoCRoZc=
+
+Name: images/swordfish-distributed-esb.png
+SHA1-Digest: RwQCJ+WjHqMHJnYdPVTD1Wr1ZH4=
+
+Name: sf_deploy_remote_svr.html
+SHA1-Digest: tLktXCPIfrQm0rAl+iANS7/aDo0=
+
+Name: images/sf_uncomment_static.png
+SHA1-Digest: uVuYVknRh1Posv8ULdgKYfWFKfU=
+
+Name: images/sf_cheat_sheet.png
+SHA1-Digest: nGqhwAQh8nzFQ41KUxP5RzWVv8M=
+
+Name: images/sf_new_plugin_content_jaxws.png
+SHA1-Digest: VfV5sNoxMjRlmamN3iYbHCTO7ik=
+
+Name: images/sf_run_consumer.png
+SHA1-Digest: 9aFX14jlNIZovXVtAKDmkTRNcTU=
+
+Name: sf_tips_tricks.html
+SHA1-Digest: uBqMk8Uj73cZJmqzZvrbbOxP1Bs=
+
+Name: sf_static_endpoint.html
+SHA1-Digest: hKkPR+9TozagYGPsooAscubPDko=
+
+Name: images/sf_simp_jaxws.png
+SHA1-Digest: HEsPMbjYnpzMAxzA2qvLVgI+Tvs=
+
+Name: sf_about_sf.html
+SHA1-Digest: jPJLUs5vDK/bBw09Nd+1EgkxTHM=
+
+Name: images/sf_add_remove_resources_svr.png
+SHA1-Digest: AWfdpUpE8IuJ6EJI43NHhYvTZHM=
+
+Name: images/sf_new_feature_osgi_fw.png
+SHA1-Digest: RH9cOagofP33Ttp3VV8E//cMMjE=
+
+Name: images/sf_reg_bpel_pref.png
+SHA1-Digest: ATfGqge9A6DW8O6x/yh5R1qa0Qg=
+
+Name: sf_jax-ws_run_provider.html
+SHA1-Digest: 25Lz5B5Wm1MNaXkGVLy/tnsECz0=
+
+Name: images/build_your_esb.png
+SHA1-Digest: K2f2mOA/EWL5UPY83ndtmIRrwdw=
+
+Name: images/sf_define_new_server.png
+SHA1-Digest: CO3cfIVOkeFCpYNZhLqJ7n91Gj0=
+
+Name: sf_create_pi_proj.html
+SHA1-Digest: hv+DpIM9yArClflqxw2Yk5VhqDo=
+
+Name: contexts.xml
+SHA1-Digest: 8+6F5yAaezAiZr914bNIHxw6kWs=
+
+Name: images/sf_new_plugin_content_jaxws1.png
+SHA1-Digest: qdqYL9IbsKWSnGkNMSOVdHmqu4Y=
+
+Name: images/install_target_plat5.png
+SHA1-Digest: iKZi9CnPv/BrK7IpE4xMPJBj7Ms=
+
+Name: commonltr-patched.css
+SHA1-Digest: R5waoOl9JSnwZZb1DsMFhtFxZ1k=
+
+Name: images/install_target_plat6.png
+SHA1-Digest: +0pBhPEzrfKUJtcz02PgxPkymCs=
+
+Name: images/sf_gen_prov_wsdl.png
+SHA1-Digest: JZ04SEp2cElKveLDQFxXXznJrvc=
+
+Name: cheatsheets/jaxws_service.xml
+SHA1-Digest: oGuYDB1Q5n2lNzmrpcygcD+pJhI=
+
+Name: sf_tar_export_example.html
+SHA1-Digest: ipqhfneHGiO8TmWQbgjTM/hFvZo=
+
+Name: images/sf_gen_prov_sel_cons_wsdl.png
+SHA1-Digest: InrKMIJKZFVDbLBC5/iUbdpesAc=
+
+Name: intro/sample.xml
+SHA1-Digest: mxxIais5nCM7RBfTdlCOKJAb9II=
+
+Name: intro/css/style.css
+SHA1-Digest: xgSQj+AtVqFWifoywXHAju7kB3I=
+
+Name: images/sf_new_plugin_project_jaxws.png
+SHA1-Digest: LjMhmasieE9Tu0c8RHWzSH7VwIQ=
+
+Name: sf_tar_configure_target_plat.html
+SHA1-Digest: /MdMF463RL0sPlfRT+s0v1onA1k=
+
+Name: plugin.xml
+SHA1-Digest: nEaoW0V7CkapzwLJDMcd10GSooA=
+
+Name: images/sf_choose_server_type.png
+SHA1-Digest: RsVYhk0Ixfn2kYRsx6DMyPSYjBU=
+
+Name: cheatsheets/create_jaxws_service.xml
+SHA1-Digest: EGueQy2mctUx1qklFCMdxOE+6rQ=
+
+Name: images/sf_reg_up_pref.png
+SHA1-Digest: sRElnQ4ksa84F+5moiAUpUNzu/c=
+
+Name: images/sf_upload_sr.png
+SHA1-Digest: dt3l1MFIcEZJqP6mtkUN5ID9tjo=
+
+Name: sf_jax-ws_run_consumer.html
+SHA1-Digest: E3Szqcn79u6Ibult+b71T8NfcM8=
+
+Name: intro/css/graphics/swordfish_logo.png
+SHA1-Digest: 96gWsFEyELVXIduWgjRk1mfzcMw=
+
+Name: intro/overview.xml
+SHA1-Digest: LmstK/N7YIn4m8gjkmHxdw2um0g=
+
+Name: sf_download_sf_rt_svr.html
+SHA1-Digest: F3UE7Z3OGW0zuLnFCVG71ZHNQD0=
+
+Name: cheatsheets/swordfishplatform.xml
+SHA1-Digest: ZG7evAx5j2C1ijh3BWKfYnUKsnE=
+
+Name: sf_jax-ws_wsdl.html
+SHA1-Digest: PgG4DtAeLuHR1v1dBlKa6oS7ltc=
+
+Name: about.html
+SHA1-Digest: 76uagLnfXHpgcfyX1LNaJgHuyGE=
+
+Name: sf_reg_upload_wsdl.html
+SHA1-Digest: pTy0f6N5f3o891q4OcAICYQs7S8=
+
+Name: images/sf_menu.png
+SHA1-Digest: oh3s0M4tZid8nqxLfg3iYZsXQIA=
+
+Name: sf_faq.html
+SHA1-Digest: 86WWJVPHRMYD0fa2rrzZteOZYx4=
+
+Name: toc.xml
+SHA1-Digest: 5pODrsnX3TgnMoWGB1orgOYOcxU=
+
+Name: sf_con_apis.html
+SHA1-Digest: giEONwnyr9/AyjrLSIuyF/sfS38=
+
+Name: sf_simp_jax-ws.html
+SHA1-Digest: dbc3nObomoG++k2FzSdDJ7RXK/E=
+
+Name: images/sf_prereq_wdt_selected.png
+SHA1-Digest: enGYE9EImtBad4YoeRrFeeKS+Ak=
+
+Name: images/sf_svr_view_context_menu.png
+SHA1-Digest: dtLWL0IsryTY0DXIbmZO7i+36Gk=
+

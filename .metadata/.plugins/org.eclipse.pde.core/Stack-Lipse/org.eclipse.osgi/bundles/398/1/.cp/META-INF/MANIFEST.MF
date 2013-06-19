@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %plugin.providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.swordfish.tutorial.discovery;singleto
+ n:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.equinox.p2.discovery;bundle
+ -version="[1.0.0,1.1.0)",org.eclipse.equinox.p2.ui.discovery;bundle-v
+ ersion="[1.0.0,1.1.0)",org.eclipse.equinox.p2.discovery.compatibility
+ ;bundle-version="[1.0.0,1.1.0)",org.eclipse.ui.intro,org.eclipse.ui.i
+ ntro.universal
+Bundle-Version: 0.10.0.v201006150915
+Bundle-ManifestVersion: 2
+Import-Package: org.eclipse.core.runtime,org.eclipse.osgi.util,org.osg
+ i.framework
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: intro/overview.xml
+SHA1-Digest: H8hpTiINizz2VNTc06s/dI+loAs=
+
+Name: about.html
+SHA1-Digest: WDCkk6rVXoizfRscVWybbHs5UtQ=
+
+Name: plugin.properties
+SHA1-Digest: 1tP5jtUrXhoNT1cShBmB4Yqo+vs=
+
+Name: intro/samples.xml
+SHA1-Digest: KhRYpKNRZEF5bveeiNKkBRmojoQ=
+
+Name: intro/css/graphics/eclipsesoa/soa_32.png
+SHA1-Digest: xEXC11fxolwDHY7ZRwgFcaRBWN4=
+
+Name: org/eclipse/swordfish/tutorial/discovery/commands/messages.prope
+ rties
+SHA1-Digest: Ryzu5Kwu7umGSVZRKndBNCTVJUM=
+
+Name: intro/css/graphics/eclipsesoa/soa_48.png
+SHA1-Digest: +KNZ9MyFokeOAHrn1TV7wYebXfw=
+
+Name: org/eclipse/swordfish/tutorial/discovery/commands/OpenTutorialDi
+ scoveryDialogCommandHandler.class
+SHA1-Digest: 5AGiUFXfUG4jLX9AfMCHUzvSHlE=
+
+Name: org/eclipse/swordfish/tutorial/discovery/commands/OpenTutorialDi
+ scoveryDialogCommandHandler.properties
+SHA1-Digest: hccH/kY4cxZ3I8LvZoIsIQ/bK/k=
+
+Name: intro/css/style.css
+SHA1-Digest: uks8BhBU9ERjpCnu+Z/ge0OXm0E=
+
+Name: org/eclipse/swordfish/tutorial/discovery/commands/Messages.class
+SHA1-Digest: EDkKCg5C0Lf/HFx5HTFhu5pS0gI=
+
+Name: intro/tutorials.xml
+SHA1-Digest: fOA8wmHgFVh9C8qx7G2xi0UvQQ8=
+
+Name: plugin.xml
+SHA1-Digest: /MWjrIYQlV7ws/D1+Gfm3ZEODl8=
+

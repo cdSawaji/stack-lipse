@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="Create a JAX-WS Service Provider Based on WSDL">
+   <intro>
+      <description>
+         <b>This cheat sheet shows you two ways to create a JAX-WS service provider project based on WSDL.</b>
+      </description>
+   </intro>
+   <item
+         title="Creating a JAX-WS Service Provider Project from WSDL.">
+      <description>
+         1. Click <b>File</b> &gt; <b>New</b> &gt; <b>Project</b>  &gt; <b>Swordfish</b> &gt; <b>JAX-WS Service Provider from WSDL</b>. Click <b>Next</b>. <br/>
+2. In the next window, type a name for your project in the <b>Project name</b> field. <br/>
+3. In the <b>Content</b> wizard window, clear the <b>Generate an activator, a Java class that controls the plug-in&apos;s lifecycle</b> check box.<br/>
+4. Click <b>Next</b>.<br/>
+5. In the <b>Generate source from WSDL</b> window, you can select the WSDL from your workspace, file system or Service Registry. <br/>
+6. Click <b>Finish</b>. The new Service Provider project is now visible in your workspace.
+      </description>
+      <command
+            required="false"
+            serialization="org.eclipse.ui.newWizard(newWizardId=org.eclipse.swordfish.tooling.ui.wizards.ServiceWsdlWizard)"/>
+   </item>
+   <item
+         title="Creating a JAX-WS Service Provider Project from WSDL Using the Import Menu">
+      <description>
+         To create JAX-WS service provider from WSDL,  you can use the Import menu:<br/>
+ 1. Click <b>File</b> &gt; <b>Import...</b> &gt; <b>Swordfish</b> &gt; <b>JAX-WS Service Provider from WSDL</b> and click <b>Next</b>. <br/>
+2. In the next window, type a name for your project in the <b>Project name</b> field. <br/>
+3. In the <b>Content</b> wizard window, clear the <b>Generate an activator, a Java class that controls the plug-in&apos;s lifecycle</b> check box.<br/>
+4. In the <b>Generate source from WSDL</b> window, you can select the WSDL from your workspace, file system or Service Registry. <br/>
+5. Click <b>Finish</b>. The new Service Provider project is now visible in your workspace.
+      </description>
+      <command
+            required="false"
+            serialization="org.eclipse.ui.file.import(importWizardId=org.eclipse.swordfish.tooling.ui.wizards.ServiceWsdlWizard)"/>
+   </item>
+</cheatsheet>

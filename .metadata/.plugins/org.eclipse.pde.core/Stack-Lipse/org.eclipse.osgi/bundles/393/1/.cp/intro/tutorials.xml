@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Copyright (c) 2008, 2009 SOPERA GmbH.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+
+    Contributors:
+        SOPERA GmbH - initial API and implementation
+ -->
+<introContent>
+  	<extensionContent id="org.eclipse.swordfish.tooling.tutorials" style="css/style.css" name="Swordfish Tutorials" path="tutorials/@">
+		<group label="Swordfish Tooling" style-id="content-group" id="org.eclipse.swordfish.tooling">
+       		<link label="Swordfish Platform" url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=org.eclipse.swordfish.tooling.cheatsheets.tutorial" id="swordfish-tutorial" style-id="content-link">
+          		<text>Learn how to work with Swordfish Target Platform. Discover how to create and run a plug-in project for JAX-WS services.</text>
+       		</link>       		
+       	</group>
+  	</extensionContent>
+</introContent>

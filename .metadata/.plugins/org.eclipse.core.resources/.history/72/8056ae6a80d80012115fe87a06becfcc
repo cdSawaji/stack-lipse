@@ -1,0 +1,5 @@
+package org.eclipse.examples.helloworld;
+
+public class HelloWorldAction implements IWorkBenchAction  {
+
+}

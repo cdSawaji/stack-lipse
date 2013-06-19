@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Copyright (c) 2008, 2009, 2010 SOPERA GmbH.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+
+    Contributors:
+        SOPERA GmbH - initial API and implementation
+ -->
+<introContent>
+	<extensionContent id="org.eclipse.swordfish.samples" style="css/style.css" name="Swordfish Samples" path="samples/@">
+		<group label="SOA Development" style-id="content-group" id="org.eclipse.soa.samples.group">
+			<link label="Discover and install SOA tutorials" url="http://org.eclipse.ui.intro/runAction?pluginId=org.eclipse.swordfish.tutorial.discovery&amp;class=org.eclipse.swordfish.tutorial.discovery.commands.OpenTutorialDiscoveryDialogCommandHandler" id="eclipsesoa-sample" style-id="content-link">
+				<text>Open the SOA tutorial discovery dialog and download additional tutorial content.</text>
+			</link>
+		</group>
+	</extensionContent>
+</introContent>

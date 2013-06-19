@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="Creating, Running and Exporting a JAX-WS Service">
+   <intro>
+      <description>
+         <b>This cheat sheet shows you how to create, run, and export a JAX-WS Service JAR</b>
+      </description>
+   </intro>
+   <item
+         title="Creating a JAX-WS Service Provider Project">
+      <description>
+         1. Click <b>File</b> &gt; <b>New</b> &gt; <b>Project....</b> &gt; <b>Swordfish</b> &gt;<b> JAX-WS Service from Java</b>. Click <b>Next</b>. <br/>
+2. In the next window, type a name for your project in the <b>Project name</b> field.  <br/>
+3. Click <b>Next</b>. <br/>
+4. In the <b>Content</b> window, clear the <b>Generate an activator, a Java class that controls the plug-in&apos;s lifecycle</b> check box.<br/>
+5. Click <b>Next</b>. <br/>
+6. In the <b>JAX-WS Service Options</b> window, you can change the name of the service. <br/>
+7. Click <b>Finish</b>. The new project is now visible in your workspace.
+      </description>
+      <command
+            required="false"
+            serialization="org.eclipse.ui.newWizard(newWizardId=org.eclipse.swordfish.tooling.ui.wizards.ServiceWizard)"/>
+   </item>
+   <item
+         title="Running a JAX-WS Service Plug-in Project">
+      <description>
+         1. Right click your JAX-WS Service Provider Project.<br/>
+2. Click <b>Run As</b> &gt; <b>Run configuration...</b>.<br/>
+3. Select <b>OSGi Framework</b> &gt; <b>Swordfish</b>.<br/>
+4. Click <b>Run</b>.<br/>
+5. Open the following URL to view the services that are running: <b>http://localhost:8197/</b>.
+      </description>
+      <command
+            required="false"
+            serialization="org.eclipse.debug.ui.commands.OpenRunConfigurations"/>
+   </item>
+   <item
+         title="Exporting a JAX-WS Service JAR as a Deployable Plug-in">
+      <description>
+         1. Select the project <br/>
+2. Click <b>File</b> &gt; <b>Export</b>  <b>Plug-in Development </b> &gt;  <b>Deployable plug-ins and fragments</b> and click  <b>Next</b>. <br/>
+3. Select the target directory to which the JAR must be exported. Click <b>Finish</b>. <br/>
+4. Check the created JAR file.
+      </description>
+      <command
+            required="false"
+            serialization="org.eclipse.ui.file.export(exportWizardId=org.eclipse.pde.ui.pluginExportWizard)"/>
+   </item>
+</cheatsheet>

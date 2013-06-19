@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Copyright (c) 2008, 2009 SOPERA GmbH.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+
+    Contributors:
+        SOPERA GmbH - initial API and implementation
+ -->
+<introContent>
+  	<extensionContent id="org.eclipse.swordfish.tooling.overview" name="Swordfish Tooling Overview" style="css/style.css" path="overview/@">
+		<group style-id="content-group" id="org.eclipse.team.svn-overview-group">
+       		<link label="Swordfish Tooling" url="http://org.eclipse.ui.intro/showHelpTopic?id=/org.eclipse.swordfish.tooling.doc/sf_tar_configure_target_plat.html" id="swordfish-overview" style-id="content-link">
+          		<text>Learn more about Swordfish Tooling</text>
+       		</link>
+       	</group>
+  	</extensionContent>
+</introContent>

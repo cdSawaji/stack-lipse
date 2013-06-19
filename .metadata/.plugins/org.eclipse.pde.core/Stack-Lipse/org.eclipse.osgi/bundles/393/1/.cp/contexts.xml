@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+<contexts>
+<context id="create_project">
+		<description>This wizard creates a JAX-WS Service from Java. On this page you can change your service name.</description>
+		<topic label="JAX-WS Service from Java" href="sf_simp_jax-ws.html"/>
+	</context>
+	
+	<context id="create_consumer_wsdl">
+		<description>This wizard creates a JAX-WS Service Consumer Project based on WSDL. Select the appropriate radio button to select the WSDL from your workspace, file system or Service Registry. </description>
+		<topic label="JAX-WS Service Consumer Project from WSDL" href="sf_jax-ws_wsdl_con.html"/>
+	</context>
+
+	<context id="create_provider_wsdl">
+		<description>This wizard creates a JAX-WS Service Provider Project based on WSDL. Select the appropriate radio button to select the WSDL from your workspace, file system or Service Registry. </description>
+		<topic label="JAX-WS Service Provider Project from WSDL" href="sf_jax-ws_wsdl.html"/>
+	</context>
+	<context id="wsdl_sr_look">
+		<description>This dialog helps you select a WSDL from the Service Registry. You can type the name of the required WSDL in the search field or select a WSDL from the list.</description>
+		<topic label="Selection of WSDL from Service Registry" href="sf_sr_wsdl_lookup.html"/>
+	</context>
+</contexts>
+

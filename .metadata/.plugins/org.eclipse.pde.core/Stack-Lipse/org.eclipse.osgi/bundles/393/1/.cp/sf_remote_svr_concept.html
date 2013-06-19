@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="topic" name="DC.Type" />
+<meta name="DC.Title" content="Defining a Remote Server Connection via Swordfish Tooling" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="sf_remote_svr_concept" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="common.css" type="text/css" rel="stylesheet" />
+<title>Defining a Remote Server Connection via Swordfish Tooling</title>
+</head>
+<body id="sf_remote_svr_concept"><a name="sf_remote_svr_concept"><!-- --></a>
+
+
+	<h1 class="topictitle1">Defining a Remote Server Connection via Swordfish Tooling </h1>
+
+	<div>
+		<p>Swordfish provides local and remote server deployment of Swordfish features, that is, a Swordfish Service 
+		Provider created within the Ecipse IDE Workbench can be deployed onto a remote Swordfish Runtime Server (OSGi enabled). 
+		The client deployer functionality allows you to define the connection properties to a remote server via a the Eclipse IDE,and then
+		add features to this newly defined remote server.</p>
+
+		<p>These are the main tasks to be completed to deploy features onto a remote server.</p>
+
+		<br /><ol>
+			<li>Create plug-in projects</li>
+
+			<li>Create feature plug-in development projects and asisgn plug-ins to them.</li>
+
+			<li>Convert the feature plug-in development projects to faceted form and assign them to Swordfish Runtime</li>
+
+			<li>Add a new Swordfish Server definition.</li>
+
+			<li>Add the faceted feature projects to the the server and publish them.</li>
+
+		</ol>
+
+		<div class="note"><span class="notetitle">Note:</span> To avoid dependency problems, transfer all features that may contain dependent plug-ins in a single step.</div>
+
+		<p>The client side deployer can deploy any set of plug-ins that are represented as plug-in projects in the Eclipse IDE. 
+		Plug-ins that are to be deployed must be assigned to features. The assignment does not need to be exclusive. This means that 
+		some plug-ins can be contained within multiple features. Multiple features may be deployed in one deployment step. 
+		The order of deployment is important when there are dependencies between the plug-ins. During deployment the plug-ins of all features 
+		marked to be deployed are transferred to the server. Then the P2 planner is used to decide whether all mutual plug-in dependencies 
+		are fulfilled by the transferred plug-ins in relation to the plug-ins that already running on the server. 
+		If not, the deployment is rolled back and an error message referencing the first unfulfilled dependency is displayed.</p>
+
+
+		<p>Instructions for each of these tasks can be found in this help, see <cite>Swordfish Deployment Tasks.</cite></p>
+	
+		</div>
+
+
+</body>
+</html>

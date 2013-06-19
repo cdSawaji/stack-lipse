@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2008, 2009, 2010 SOPERA GmbH.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+
+    Contributors:
+        SOPERA GmbH - initial API and implementation
+ -->
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="org.eclipse.ui.category.dialogs"
+            defaultHandler="org.eclipse.swordfish.tutorial.discovery.commands.OpenTutorialDiscoveryDialogCommandHandler"
+            id="org.eclipse.swordfish.tutorial.discovery.commands.OpenTutorialDiscoveryDialog"
+            name="%discovery.dialog.command.name">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:help?before=org.eclipse.equinox.p2.ui.sdk.update">
+         <menu
+               label="%discovery.menu.label">
+            <command
+                  commandId="org.eclipse.swordfish.tutorial.discovery.commands.OpenTutorialDiscoveryDialog"
+                  label="%discovery.menu.command.label"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.intro.configExtension">
+      <configExtension
+            configId="org.eclipse.ui.intro.universalConfig"
+            content="intro/tutorials.xml">
+      </configExtension>
+   </extension>
+</plugin>

@@ -1,0 +1,50 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: dq4cMU15WevKBioMDLUaqE7aeT8=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: llTVsOgVEXFA2bodr2jLrnqlMqc=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: intro/overview.xml
+SHA1-Digest: qfpl1CHXh8Dq0Jcyay+9yeqnT4A=
+
+Name: about.html
+SHA1-Digest: JLDw7N6xHQFKYSCel3sVHnikscs=
+
+Name: plugin.properties
+SHA1-Digest: zayaH9eqswLLU93A6sLTAlo9tE4=
+
+Name: intro/samples.xml
+SHA1-Digest: 7hSxKUSQWN4+QgJoZEq4mNJg7Ss=
+
+Name: intro/css/graphics/eclipsesoa/soa_32.png
+SHA1-Digest: eJaDaGORuWvY37MuxDoFmE8D+6U=
+
+Name: org/eclipse/swordfish/tutorial/discovery/commands/messages.prope
+ rties
+SHA1-Digest: mjEHmEo37yt+i7ZAR2++DdS/eDc=
+
+Name: intro/css/graphics/eclipsesoa/soa_48.png
+SHA1-Digest: iY0jEd95TmM8E25WTuMCNHR/EY4=
+
+Name: org/eclipse/swordfish/tutorial/discovery/commands/OpenTutorialDi
+ scoveryDialogCommandHandler.class
+SHA1-Digest: ZgqbyaJvRec3DaxxKNc+uj09jyw=
+
+Name: org/eclipse/swordfish/tutorial/discovery/commands/OpenTutorialDi
+ scoveryDialogCommandHandler.properties
+SHA1-Digest: AGYBGQTEkMQffsepeHOl+yTVCNU=
+
+Name: intro/css/style.css
+SHA1-Digest: jmR9feQ6dDN3dLDDY64Iu09dmTw=
+
+Name: org/eclipse/swordfish/tutorial/discovery/commands/Messages.class
+SHA1-Digest: ro5HZjbJYe1szQgQJ7qyGdRrLCU=
+
+Name: intro/tutorials.xml
+SHA1-Digest: 5uv3f2QtU9K8hq5ou0AcfN48JzE=
+
+Name: plugin.xml
+SHA1-Digest: RTyZ3prTFKu0kJkT/mL59C36+Cw=
+

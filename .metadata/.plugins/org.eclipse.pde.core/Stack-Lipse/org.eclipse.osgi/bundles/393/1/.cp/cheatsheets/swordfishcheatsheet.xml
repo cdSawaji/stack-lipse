@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="Configuring Eclipse for Swordfish">
+   <intro>
+      <description>
+         This cheat sheet shows you how to configure Eclipse for the Swordfish Target platform and how to create a plug-in project for JAX-WS services.
+      </description>
+   </intro>
+   <item
+         title="Configuring Eclipse for the Swordfish Target Platform">
+      <description>
+         1. Click <b>Windows</b> &gt; <b>Preferences</b> &gt; <b>Plug-in development</b> &gt; <b>Target Platform</b>. Click <b> Add</b>. <br/>
+2. In the <b>New Target Definition</b> window, select the <b>Template</b> check box and select <b>Swordfish</b>. Click <b>Next</b>. <br/>
+3. Create a new target definition and click <b>Finish</b>. <br/>
+4. In the <b>New Target Definition</b> window, select  the <b>Swordfish</b> check box. Click <b>Apply</b>. <br/>
+5. Click <b>OK</b> to confirm your actions.
+      </description>
+      <command
+            required="false"
+            serialization="org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.pde.ui.TargetPlatformPreferencePage2)"/>
+   </item>
+   <item
+         title="Creating a Configuration to Launch the Swordfish Target Platform">
+      <description>
+         1. Click <b>Run</b> &gt; <b>Run Configurations...</b>. <br/>
+2. Right-click <b>OSGi Framework</b> and select <b>New</b>. Type <b>Swordfish</b> as the name for the configuration. <br/>
+3. Click <b>Apply</b>. <br/>
+4. Click <b>Close</b>.
+      </description>
+      <command
+            required="false"
+            serialization="org.eclipse.debug.ui.commands.OpenRunConfigurations"/>
+   </item>
+</cheatsheet>
